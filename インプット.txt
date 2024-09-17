@@ -1,0 +1,23 @@
+cd ~ ...~に移動
+ls ...カレントディレクトリの中身をみる(-a をつけるとall　隠しファイルも見れる)
+ex)ls -a .git/
+git init...バージョン管理（新規のgitリポジトリ）を作成できる
+
+git basic flow
+
+１）ファイルの変更をステージングエリア（コミットするファイルを選択するための場所。
+コミットする前の控室みたいなもの）に追加(git add [changed file name])
+２）ローカルリポジトリにコミット（git commit）
+コミットメッセージ　忘れずに（editerによっては半角のi）（initial commitなど）保存したら閉じて（Esc）OK（:wq⇒enter）
+1行目：変更内容の要約
+2行目：空
+3行目：理由
+
+３）リモートリポジトリにプッシュ(git push)
+githubの＋でnew repository
+↓
+作成されているリポジトリ（git init済み）に対してなら「or push an existing repository from the command line」のコマンド実行
+
+
+
+

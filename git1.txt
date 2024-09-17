@@ -1,2 +1,3 @@
 test演習１
 hello
+mimi
