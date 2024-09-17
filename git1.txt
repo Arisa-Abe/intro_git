@@ -2,3 +2,4 @@ test演習１
 hello
 mimi
 ryu
+git diff
